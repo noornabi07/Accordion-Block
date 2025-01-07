@@ -1,0 +1,32 @@
+$primaryColor: #4527a4;
+
+.babInspectorInfo {
+	padding: 6px;
+
+	a {
+		text-decoration: none;
+		font-weight: bold;
+	}
+}
+
+.bPlPanelBody {
+	.addItem {
+		button {
+			font-size: 15px;
+		}
+	}
+
+	span {
+		font-size: 14px;
+		color: #4b4bcf;
+		font-weight: 500;
+	}
+
+	.itemAction {
+
+		.removeItem,
+		.duplicateItem {
+			font-size: 13px;
+		}
+	}
+}
