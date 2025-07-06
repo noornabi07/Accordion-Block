@@ -4,7 +4,7 @@ Donate link: https://www.buymeacoffee.com/abuhayat
 Tags: block, accordion, horizontal accordion, vertical accordion, Gutenberg block
 Requires at least: 6.2+
 Tested up to: 6.7
-Stable tag: 1.0.6
+Stable tag: 1.0.8
 Requires PHP: 7.1
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
@@ -13,14 +13,25 @@ Make a fully functional accordion to display various contents professionally.
 
 == Description ==
 
-An accordion is used to show and hide HTML content. This block plugin helps you to make a fully functional accordion to display various contents professionally. 
+Easily create stylish and fully customizable accordions for your WordPress site. Perfect for FAQs, toggle sections, or content organization. Supports responsive design, smoothly, and dynamic content. No coding required—just add, and customize!
 
 
 **[Demos](https://bblockswp.com/demo/accordion)**
 
 
 = Features =
-- **Fully Customizable**: All the options you need to arrange the showcase to your liking are available here.
+- **Fully Customizable Accordion**: Adjust colors, fonts, spacing, and other design elements to match your theme.
+- **Dynamic Content Support**: Insert text, images, links, or even shortcodes inside accordion items.
+- **Responsive**: Works seamlessly on all devices, including desktops, tablets, and smartphones.
+- **Multiple Accordion Blocks**: Add multiple accordion blocks to a single page or post without conflicts.
+- **Expandable and Collapsible Items**: Accordion items expand and collapse smoothly with user interactions.
+- **Default Open/Closed State**: Set each accordion item to start in an open or closed state based on your preference.
+- **Icon Support for Toggles**: Choose from various toggle icons or upload custom icons for expand and collapse actions.
+- **Customizable Header Styles**: Easily style the accordion headers, including fonts, colors, and hover effects.
+- **Shortcode Support**: Use shortcodes to insert the accordion in classic editors or widget areas.
+- **No Coding Required**: User-friendly interface makes it easy to build and style accordions without technical skills.
+- **Multiple Style Variations**: Includes pre-designed accordion styles to get started quickly.
+
 
 
 = How to use =
@@ -102,9 +113,19 @@ You can post your questions on the [support forum here](https://wordpress.org/su
 1. Settings
 2. Vertical Accordion
 3. Horizontal Accordion
+4. Accordion with Icon
 
 
 == Changelog ==
+
+= 1.0.8 - 15 Jan, 2025 =
+* Same page use multiple accordion
+
+= 1.0.7 - 12 Jan, 2025 =
+* Title problem issue fixed
+
+= 1.0.6 - 19 Dec, 2024 =
+* Create shortcode for accordion
 
 = 1.0.6 - 19 Dec, 2024 =
 * Create shortcode for accordion

@@ -23,8 +23,8 @@ document.addEventListener('DOMContentLoaded', () => {
 	});
 });
 
-const RenderAccordion = ({ attributes,id }) => {
-	const {  accordions, layout } = attributes;
+const RenderAccordion = ({ attributes, id }) => {
+	const { accordions, layout } = attributes;
 
 	useEffect(() => {
 		runAccordion(attributes, id);

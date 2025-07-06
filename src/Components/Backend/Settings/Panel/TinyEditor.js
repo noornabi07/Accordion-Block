@@ -20,9 +20,9 @@ export const TinyEditor = ({ value = '', onChange, media_button = true, quicktag
         plugins: 'charmap colorpicker compat3x directionality fullscreen hr image lists media paste tabfocus textcolor wordpress wpautoresize wpdialogs wpeditimage wpemoji wpgallery wplink wptextpattern wpview',
         toolbar1: 'formatselect bold italic underline bullist numlist blockquote alignleft aligncenter alignright link unlink wp_more fullscreen wp_adv',
         toolbar2: 'strikethrough hr alignjustify forecolor pastetext removeformat charmap outdent indent undo redo wp_help',
-        setup: function(editor) {
+        setup: (editor) => {
           // Add setup function to handle various events
-          editor.on('init', function() {
+          editor.on('init', function () {
             editor.setContent(value);
           });
 
@@ -37,12 +37,7 @@ export const TinyEditor = ({ value = '', onChange, media_button = true, quicktag
           editor.on('change', updateContent);
           editor.on('input', updateContent);
           editor.on('paste', updateContent);
-          
-          // Handle focus events
-          // editor.on('focus', () => {
-          //   editor.setContent(def);
-          // });
-          
+
           editor.on('blur', () => {
             const content = editor.getContent();
             if (content !== value) {
@@ -98,10 +93,10 @@ export const TinyEditor = ({ value = '', onChange, media_button = true, quicktag
           box-shadow:none !important;
         }
       `}</style>
-      <textarea 
-        style={{ width: "100%" }} 
-        id={`bpl-wp-${randomId}editor`} 
-        className='bpl-wp-editor' 
+      <textarea
+        style={{ width: "100%" }}
+        id={`bpl-wp-${randomId}editor`}
+        className='bpl-wp-editor'
       />
     </div>
   );

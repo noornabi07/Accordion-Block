@@ -7,7 +7,7 @@ export const runAccordion = (attributes, id, isBackend = false, custom = {}) => 
 
 	const sl = `#${id} .${prefix}`;
 
-	'vertical' === layout && $.Zebra_Accordion(sl, {
+	'vertical' === layout && new $.Zebra_Accordion(sl, {
 		animate_opacity: true,
 		collapsible: false,
 		expanded_class: 'accordionExpanded',

@@ -3,7 +3,7 @@
 /**
  * Plugin Name: Accordion
  * Description: Display customizable accordion in beautiful way.
- * Version: 1.0.6
+ * Version: 1.0.8
  * Author: bPlugins
  * Author URI: https://bplugins.com
  * License: GPLv3
@@ -17,7 +17,7 @@ if (!defined('ABSPATH')) {
 }
 
 // Constant
-define('BAB_PLUGIN_VERSION', isset($_SERVER['HTTP_HOST']) && 'localhost' === $_SERVER['HTTP_HOST'] ? time() : '1.0.6');
+define('BAB_PLUGIN_VERSION', isset($_SERVER['HTTP_HOST']) && 'localhost' === $_SERVER['HTTP_HOST'] ? time() : '1.0.8');
 define('BAB_ASSETS_DIR', plugin_dir_url(__FILE__) . 'assets/');
 
 // B Accordion
